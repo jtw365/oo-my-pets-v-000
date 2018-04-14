@@ -45,7 +45,7 @@ class Owner
   end
 
   def walk_dogs(dog)
-
+    doggie = Dog.new(dog)
     #binding.pry
   end
 
