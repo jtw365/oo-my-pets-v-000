@@ -9,8 +9,4 @@ class Fish
     @fishes = []
   end
 
-  def buy_fish(fish)
-    @fishes << fish
-    fish.owner = self
-  end
 end
