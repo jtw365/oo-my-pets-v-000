@@ -12,6 +12,5 @@ class Fish
   def buy_fish(fish)
     @fishes << fish
     fish.owner = self
-    #binding.pry
   end
 end
