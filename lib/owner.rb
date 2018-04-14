@@ -6,6 +6,7 @@ class Owner
 
   attr_accessor :name, :pets
   attr_reader :species
+  attr_writer :mood
 
   def initialize(species)
     @species = species
