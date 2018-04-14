@@ -46,10 +46,9 @@ class Owner
   end
 
   def walk_dogs
-    #pets.each do |
-    binding.pry
+    pets.each do |
+    #binding.pry
   end
-
 
 
 
