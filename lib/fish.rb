@@ -9,9 +9,9 @@ class Fish
     @fishes = []
   end
 
-  def self.buy_fish(fish)
+  def buy_fish(fish)
     @fishes << fish
-    fish.owner = self.
+    fish.owner = self
     #binding.pry
   end
 end
