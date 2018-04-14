@@ -65,6 +65,7 @@ class Owner
 
   def sell_pets
 
+    pry
   end
 
 
