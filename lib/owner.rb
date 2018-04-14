@@ -60,6 +60,8 @@ class Owner
   def feed_fish
     pets[:fishes].each do |f|
       f.mood = "happy"
+    end
+  end
 
 
 
